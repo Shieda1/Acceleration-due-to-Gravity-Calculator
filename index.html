@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acceleration due to Gravity Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="accelerationduetoGravityRadio" name="variables" checked>
+  <label for="accelerationduetoGravityRadio">Acceleration due to Gravity</label>
+
+  <input type="radio" id="massoftheBodyRadio" name="variables">
+  <label for="massoftheBodyRadio">Mass of the Body</label>
+
+  <input type="radio" id="radiusbetweentwoBodiesRadio" name="variables">
+  <label for="radiusbetweentwoBodiesRadio">Radius between two Bodies</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">(M) Mass of the Body (kg)</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">(r) Radius between two Bodies (m)</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
